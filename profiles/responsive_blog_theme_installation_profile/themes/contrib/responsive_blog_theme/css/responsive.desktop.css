@@ -8,26 +8,8 @@
  * - Read the _README file in this directory, it contains useful help and other information.
  */
 
-#columns,
-.region-header,
-.region-footer .region-inner,
-.region-tertiary-content .region-inner,
-#breadcrumb .breadcrumb-wrapper,
-#branding,
-#primary-menu-bar,
-#secondary-menu-bar {
-	width: 1190px;
-	margin: 0 auto;
-}
-#breadcrumb .breadcrumb-wrapper {
-	width: 1170px;
-}
-.region-sidebar-second {
-	width: 390px;
-	margin-left: -390px;
-}
 .sidebar-second #main-content {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 
