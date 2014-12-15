@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the responsive_blog_profile_feature feature.
+ */
+
+include_once 'responsive_blog_profile_feature.features.inc';

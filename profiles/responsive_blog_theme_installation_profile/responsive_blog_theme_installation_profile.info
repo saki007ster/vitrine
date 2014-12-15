@@ -1,0 +1,87 @@
+; Packaging information for responsive_blog_theme_installation_profile
+name = "responsive_blog_theme_profile"
+description = "Responsive blog theme installation profile"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+; Chaos tool suite
+dependencies[] = ctools
+; Context
+dependencies[] = context
+dependencies[] = context_layouts
+dependencies[] = context_ui
+; Core
+dependencies[] = block
+dependencies[] = blog
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = php
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = statistics
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+
+; FlexSlider
+dependencies[] = flexslider
+dependencies[] = flexslider_views
+; Other
+dependencies[] = backup_migrate
+dependencies[] = boxes
+dependencies[] = entity
+dependencies[] = libraries
+dependencies[] = logo_block
+dependencies[] = token
+dependencies[] = twitter_block
+; UUID
+dependencies[] = uuid
+; User interface
+dependencies[] = ckeditor
+dependencies[] = form_placeholder
+dependencies[] = superfish
+; Views
+dependencies[] = views
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+dependencies[] = views_ui
+; Webform
+dependencies[] = webform
+; Features
+dependencies[] = features
+dependencies[] = responsive_blog_profile_feature
+dependencies[] = uuid_features
+
+
+; Information added by Drupal.org packaging script on 2014-06-25
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "responsive_blog_theme_installation_profile"
+datestamp = "1403697528"
+

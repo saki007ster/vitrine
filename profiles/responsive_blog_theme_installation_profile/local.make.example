@@ -1,0 +1,29 @@
+; responsive_blog_theme_installation_profile make file for local development
+core = "7.x"
+api = "2"
+
+projects[drupal][version] = "7.x"
+; include the d.o. profile base
+includes[] = "drupal-org.make"
+
+; +++++ TODO modules without versions +++++
+
+projects[responsive_blog_profile_feature][version] = "" ; TODO add version
+projects[responsive_blog_profile_feature][subdir] = "custom"
+
+; +++++ Libraries +++++
+
+; jquery.cycle
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+libraries[jquery.cycle][type] = "library"
+libraries[jquery.cycle][destination] = "libraries"
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "" ; TODO add download URI
+
+; jquery.placeholder
+libraries[jquery.placeholder][directory_name] = "jquery.placeholder"
+libraries[jquery.placeholder][type] = "library"
+libraries[jquery.placeholder][destination] = "libraries"
+libraries[jquery.placeholder][download][type] = "get"
+libraries[jquery.placeholder][download][url] = "" ; TODO add download URI
+
